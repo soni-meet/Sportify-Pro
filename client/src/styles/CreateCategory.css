@@ -1,0 +1,65 @@
+/* CreateCategory.css */
+.category-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .category-table {
+    width: 100%;
+  }
+  
+  .category-table th,
+  .category-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .category-table th {
+    font-weight: bold;
+  }
+  
+  .category-table td {
+    vertical-align: middle;
+  }
+  
+  /* Style for the buttons */
+  .category-table button {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .category-table button:last-child {
+    margin-right: 0;
+  }
+  
+  /* Edit button */
+  .category-table button.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    width: "100px";
+  }
+  
+  .category-table button.edit-button:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  /* Delete button */
+  .category-table button.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    width: "100px";
+  }
+  
+  .category-table button.delete-button:hover {
+    background-color: #c82333;
+  }
+  

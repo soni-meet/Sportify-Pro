@@ -1,0 +1,101 @@
+/* Assuming you have a CSS file (e.g., HomePage.css) where you'll add these styles */
+
+/* Styling for the container that wraps the entire page content */
+.home-container {
+    margin-top: 10px;
+  }
+  
+  /* Styling for the filter container */
+  .col-md-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the filter title */
+  h4.text-center {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the checkboxes inside the filter container */
+  .ant-checkbox-wrapper {
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for the price filter container */
+  .d-flex.flex-column:nth-child(3) {
+    margin-top: 20px;
+  }
+  
+  /* Styling for the "RESET FILTERS" button */
+  button.btn.btn-danger {
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  /* Styling for the card container */
+  .col-md-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling for the card layout */
+  .card {
+    width: 18rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the card image */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  /* Styling for the card body */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling for the card title */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the card description */
+  .card-text {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the price */
+  .card-text:last-child {
+    font-weight: bold;
+  }
+  
+  /* Styling for the "More Details" button */
+  button.btn.btn-primary,
+  button.btn.btn-secondary {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  /* Styling for the "Loadmore" button */
+  button.btn.btn-warning {
+    margin: 10px 0;
+  }
+  

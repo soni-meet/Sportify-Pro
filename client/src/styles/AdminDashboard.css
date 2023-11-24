@@ -1,0 +1,33 @@
+.admin-card {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .admin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .admin-info {
+    margin-top: 20px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .info-label::after {
+    content: ":";
+  }
+  

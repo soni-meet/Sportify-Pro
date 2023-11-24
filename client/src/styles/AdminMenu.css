@@ -1,0 +1,36 @@
+.admin-menu-container {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    /* margin-top: 60px; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    text-decoration: none; /* Remove default underline */
+    color: #000; /* Set default text color */
+  }
+  
+  .menu-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the active menu item */
+  .active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
